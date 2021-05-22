@@ -1,0 +1,284 @@
+/*
+	===================
+	Mobile Responsive
+	===================
+*/
+
+@media only screen and (max-width: 767px) {
+	body{
+		overflow-x: hidden; 
+	}
+	p {
+		font-size: 14px ;
+	}
+	section {
+		padding: 50px 0px;
+	}
+	.header-top {
+		padding: 18px 40px 5px 40px;
+	}
+	.header-text h1 {
+		font-size: 26px;
+	}
+	.header-intro {
+		padding-top: 44px;
+	}
+	.header-text p {
+		font-size: 14px;
+		line-height: 25px;
+		width: 99%;
+	}
+	.header-text ul li,
+	.header-text ul li:nth-child(5) {
+		width: 100%;
+		font-size: 13px;
+		margin-top: 10px;
+	}
+	.header-btn a {
+		font-size: 12px;
+		padding: 15px 13px;
+	}
+	.header-btn span{
+		display: none;
+	}
+	.header-btn {
+		margin-top: 35px;
+		margin-bottom: 40px;
+	}
+	.bitcoin-text {
+		width: 100%;
+		padding-left: 25px;
+	}
+	.bitcoin-text h2,
+	.work h2,
+	.footer h2 {
+		font-size: 28px;
+	}
+	.bitcoin-text p {
+		margin: 14px 0px;
+	}
+	.bitcoin-text ul li {
+		width: 100%;
+		margin-top: 10px;
+		font-size: 13px;
+	}
+	.work {
+		padding: 0px 0px 50px 0px;
+	}
+	.work-left {
+		padding-left: 0px;
+	}
+	.section-title {
+		padding-bottom: 0px;
+	}
+	.right-text {
+		text-align: center;
+		padding-right: 0px;
+	}
+	.work-text p {
+		padding-left: 0px;
+	}
+	.work-text h4,
+	.feature h4 {
+		font-size: 22px;
+		margin: 7px 0px 9px 0px;
+	}
+	.work-text,
+	.work-img {
+		margin-top: 25px;
+	}
+	.work-left {
+		border-right: transparent;
+	}
+	.fa-dot-circle {
+		display: none;
+	}
+	.work-right {
+		padding-right: 0px;
+		text-align: center;
+	}
+	.work-text p {
+		width: 100%;
+	}
+	.footer {
+		padding: 50px 0px 50px 0px;
+		text-align: center;
+	}
+}
+
+/*
+	===================
+	Table Responsive
+	===================
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header-intro {
+		padding-top: 70px;
+	}
+	.header-text h1 {
+		font-size: 45px;
+	}
+	.header-intro .col-md-7,
+	.header-intro .col-md-5 {
+		flex: 100%;
+		max-width: 100%;
+	}
+	.header-text {
+		text-align: center;
+	}
+	.header-text p {
+		width: 100%;
+	}
+	.header-text ul li {
+		width: 50%;
+	}
+	.header-text ul li:nth-child(5) {
+		width: 100%;
+	}
+	.header-btn {
+		margin-top: 44px;
+		margin-bottom: 40px;
+	}
+	.header-img img {
+		width: 70%;
+	}
+	.header-img {
+		text-align: center;
+	}
+	.Bitcoin .col-md-7,
+	.Bitcoin .col-md-5 {
+		flex: 50%;
+		max-width: 50%;
+	}
+	.bitcoin-text {
+		width: 100%;
+	}
+	.bitcoin-text h2 {
+		font-size: 26px;
+	}
+	.bitcoin-text p {
+		margin-right: 10px;
+	}
+	section {
+		padding: 50px 0px;
+	}
+	.bitcoin-text ul li {
+		width: 100%;
+		margin-top: 7px;
+		font-weight: 400;
+	}
+	.bitcoin-img img {
+		width: 100%;
+		margin-top: 80px;
+	}
+	.work h2 {
+		font-size: 30px;
+	}
+	.work-right {
+		padding-right: 0px;
+	}
+	.work-right {
+		padding-right: 0px;
+	}
+	.work {
+		padding: 0px 10px 50px 10px;
+	}
+	.work-left {
+		padding-left: 10px;
+	}
+	.work-text,
+	.work-img {
+		margin-top: 80px;
+		text-align: center;
+	}
+	.work-text p {
+		width: 100%;
+	}
+	.right-text p {
+		margin-left: 0px;
+	}
+	.right-text p {
+		width: 100%;
+		padding-left: 0px;
+	}
+	.work-img img {
+		width: 230px;
+		height: 230px;
+	}
+	.work-text h4,
+	.feature h4,
+	.footer h2 {
+		font-size: 24px;
+	}
+	.work-text p {
+		line-height: 27px;
+	}
+	.feature p {
+		width: 100%;
+	}
+	.footer {
+		text-align: center;
+		padding: 50px 0px 50px 0px;
+	}
+	.footer .col-md-8 {
+		flex: 100%;
+		max-width: 100%;
+	}
+	.footer .col-md-4 {
+		flex: 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+	.footer img {
+		width: 50%;
+	}
+}
+
+/*
+	===================
+	Leptop Responsive
+	===================
+*/
+@media only screen and (min-width: 992px) and (max-width: 1919px) {
+	.header-intro {
+		padding-top: 90px;
+	}
+	.header-text h1 {
+		font-size: 42px;
+	}
+	.header-text p {
+		font-size: 16px;
+		width: 100%;
+		margin: 20px 0px 14px 0px;
+	}
+	#header {
+		min-height: 730px;
+	}
+	section {
+		padding: 100px 0px;
+	}
+	.bitcoin-text {
+		width: 100%;
+	}
+	.bitcoin-text p {
+		margin: 15px 0px;
+		padding-right: 30px;
+	}
+	.work-left {
+		padding-left: 0px;
+	}
+	.work {
+		padding: 0px 10px 150px 10px;
+	}
+	.work-text h4,
+	.feature h4 {
+		font-size: 26px;
+		margin: 3px 0px 10px 0px;
+	}
+	.work-text p {
+		width: 100%;
+	}
+	.right-text p {
+		padding-left: 0px;
+	}
+}

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+/*
+	Description: 
+	Name: MARMAC REAL 
+	Author: MARMAC REAL
+	Author URI: 
+	Version: 01.0
+	tags:
+
+*/
+
+/*================
+	Defult Design
+=================*/
+
+body{
+	overflow-x: hidden;
+font-family: 'Ubuntu', sans-serif;
+
+
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{	
+	letter-spacing: 2.2;
+	color: #242424;
+}
+p{
+	font-size: 18px;
+	font-weight: 300;
+}
+section{
+	padding: 50px 0px;
+}
+.bold{
+	font-weight: 700;
+}
+.gray{
+	color: #878787;
+}
+.text-upparcase{
+	text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.header-text{
+	padding-top: 120px;
+	background: url('../../images/shoe-bg.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+	height: 100vh;
+}
+.header-text h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.btn.btn-primary.shoes-btn{
+	background: #ffc000;
+	padding: 10px 45px;
+	color: #000;
+	border:transparent;
+	border-radius: 0;
+}
+footer{
+	background: #000;
+	padding: 80px 0px;
+}
+footer h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+footer ul li {
+	list-style-type: none;
+}
+footer ul li a{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+/*other pages*/
+
+.breadcrumb{
+	background: transparent;
+	margin-bottom: 30px;
+}
+
+.breadcrumb-item a{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #6e6e6e !important;
+}
+.breadcrumb-item + .breadcrumb-item{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.single-product-tabarea{
+	padding: 80px 0px;
+}
+.tab-pane{
+	padding: 100px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs{
+	border: transparent;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	border: 2px solid ;
+}
+.right-top{
+	border: 2px dashed #878787;
+	padding: 30px 20px;
+}
+.color-box{
+	padding: 20px;
+}
+.color-box p{
+	margin-left: 30px;
+	font-weight: 700;
+}
+.gray.text-upparcase{
+	margin-top: 40px;
+}
+.text-right.text-upparcase.gray{
+	border-bottom: 2px solid #878787;
+	padding-bottom: 15px;
+}
+.fa-square{
+	font-size: 10px;
+	margin-right: 10px;
+}
+.addlist-list ul li{
+	font-size: 18px;
+}
+.addlist-btn{
+	margin-top: 25px;
+}
+.addlist-btn .btn.btn-primary.shoes-btn{
+	margin-bottom: 8px;
+	background: #000000;
+	color: #fff;
+}
+.addlist-btn .d-flex.justify-content-between .btn.btn-primary.shoes-btn{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.border-center{
+	position: relative;
+}
+.border-center:before{
+	position: absolute;
+	content: "";
+	top: 67%;
+    left: 0;
+    height: 3px;
+    width: 35%;
+	background: #878787;
+}
+.border-center:after{
+	position: absolute;
+	content: "";
+	top: 67%;
+    right:  0;
+    height: 3px;
+    width: 35%;
+	background: #878787;
+}
+.showtwo{
+	background: url('../../images/shoe-02.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+}
+
+.showtwo.three{
+	background: url('../../images/shoe-03.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	height: 700px;
+	width: 100%;
+}
+.showtwo.four{
+	background: url('../../images/shoe-04.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	height: 700px;
+	width: 50%;
+	margin: 0px auto;
+}
+.such img{
+	height: 150px;
+	margin-right: 25px;
+}
+.such h2{
+	margin-bottom: 30px;
+}
+.such p{
+	text-align: justify;
+	font-size: 15px;
+	color: #000;
+	font-weight: 700;
+}
