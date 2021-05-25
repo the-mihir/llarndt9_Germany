@@ -239,46 +239,24 @@
 	Leptop Responsive
 	===================
 */
-@media only screen and (min-width: 992px) and (max-width: 1919px) {
-	.header-intro {
-		padding-top: 90px;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.header-text{
+		height: 90vh;
 	}
-	.header-text h1 {
-		font-size: 42px;
+
+
+
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+
+	.header-text{
+		height: 100vh;
 	}
-	.header-text p {
-		font-size: 16px;
-		width: 100%;
-		margin: 20px 0px 14px 0px;
-	}
-	#header {
-		min-height: 730px;
-	}
-	section {
-		padding: 100px 0px;
-	}
-	.bitcoin-text {
-		width: 100%;
-	}
-	.bitcoin-text p {
-		margin: 15px 0px;
-		padding-right: 30px;
-	}
-	.work-left {
-		padding-left: 0px;
-	}
-	.work {
-		padding: 0px 10px 150px 10px;
-	}
-	.work-text h4,
-	.feature h4 {
-		font-size: 26px;
-		margin: 3px 0px 10px 0px;
-	}
-	.work-text p {
-		width: 100%;
-	}
-	.right-text p {
-		padding-left: 0px;
-	}
+
+
+
+
 }

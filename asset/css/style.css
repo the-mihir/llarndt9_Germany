@@ -15,8 +15,7 @@
 
 body{
 	overflow-x: hidden;
-font-family: 'Ubuntu', sans-serif;
-
+	font-family: 'Ubuntu', sans-serif;
 
 }
 *{
@@ -45,7 +44,7 @@ section{
 	font-weight: 700;
 }
 .gray{
-	color: #878787;
+	color: #838383;
 }
 .text-upparcase{
 	text-transform: uppercase;
@@ -57,7 +56,7 @@ section{
     margin-left: 40px;
 }
 .header-text{
-	padding-top: 120px;
+	padding-top: 100px;
 	background: url('../../images/shoe-bg.png');
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -122,7 +121,7 @@ footer ul li a{
 	border: transparent;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-	border: 2px solid ;
+	border: 2px solid transparent;
 }
 .right-top{
 	border: 2px dashed #878787;
@@ -134,10 +133,11 @@ footer ul li a{
 .color-box p{
 	margin-left: 30px;
 	font-weight: 700;
+	font-size: 18px;
 }
-.gray.text-upparcase{
-	margin-top: 40px;
-}
+/*.gray.text-upparcase{
+	margin-top: 20px;
+}*/
 .text-right.text-upparcase.gray{
 	border-bottom: 2px solid #878787;
 	padding-bottom: 15px;
@@ -151,15 +151,37 @@ footer ul li a{
 }
 .addlist-btn{
 	margin-top: 25px;
+    background: #000000;
+    height: 52px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .addlist-btn .btn.btn-primary.shoes-btn{
 	margin-bottom: 8px;
-	background: #000000;
+	background-color: transparent;
 	color: #fff;
+	font-size: 21px;
 }
 .addlist-btn .d-flex.justify-content-between .btn.btn-primary.shoes-btn{
 	background: transparent;
 	border: 1px solid #000;
+	color: #000;
+}
+.d-flex.justify-content-between.btn-two .btn.btn-primary.shoes-btn{
+	background-color: transparent;
+	border: 3px solid #878787;
+	font-size: 18px;
+	padding: 11px 33px;
+	font-style: italic;
+	font-weight: 300;
+}
+.d-flex.justify-content-between.btn-two{
+	margin-bottom: 30px;
+}
+.text-underline{
+	text-decoration: underline;
+	font-size: 18px;
+	font-weight: 400;
 	color: #000;
 }
 .border-center{
@@ -204,8 +226,8 @@ footer ul li a{
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: left;
-	height: 700px;
-	width: 50%;
+	height: 350px;
+    width: 40%;
 	margin: 0px auto;
 }
 .such img{
@@ -217,7 +239,58 @@ footer ul li a{
 }
 .such p{
 	text-align: justify;
-	font-size: 15px;
-	color: #000;
+	padding-right: 80px;
+}
+
+
+.gray.text-upparcase.lite-f.mt{
+	margin-top: 50px;
+}
+.gray.text-upparcase.m0{
+	margin-top: 0;
+}
+
+.tab-pane img{
+	width: 80%;
+	height: 350px;
+}
+.single-single-iteam img{
+	margin-bottom: 30px;
+}
+.lite-f{
+	color: #454545;
+	opacity: .90;
+	font-weight: 400 !important;
+}
+.bcolor.bold{
 	font-weight: 700;
+}
+.bcolor{
+	font-size: 18px !important;
+	color: #000 !important;
+	letter-spacing: 0 !important;
+	margin: 0;
+
+}
+.wp{
+	width: 70%;
+	margin: 0px auto;
+}
+.sf{
+	font-size: 14px;
+    width: 68%;
+    margin: 0px auto;
+}
+.rr{
+	background-color: red;
+}
+.single-single-iteam.img-t{
+	margin-top: 150px;
+}
+.single-single-iteam.width{
+	width: 16%;
+}
+
+#margin-top{
+	margin-top: -178px;
 }
