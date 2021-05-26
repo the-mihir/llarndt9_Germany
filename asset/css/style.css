@@ -252,8 +252,8 @@ footer ul li a{
 }
 
 .tab-pane img{
-	width: 80%;
-	height: 350px;
+	width: 100%;
+/* 	height: 350px; */
 }
 .single-single-iteam img{
 	margin-bottom: 30px;
