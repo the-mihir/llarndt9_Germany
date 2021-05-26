@@ -57,11 +57,12 @@ section{
 }
 .header-text{
 	padding-top: 100px;
-	background: url('../../images/shoe-bg.png');
+	/* background: url('../../images/shoe-bg.png'); */
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom center;
-	height: 100vh;
+	margin-bottom: -155px;
+	
 }
 .header-text h1{
 	font-size: 60px;
